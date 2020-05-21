@@ -471,3 +471,4 @@ if __name__ == '__main__':
     matricula = ['cod. geral', 'nome']
     # chamada principal do programa
     menu()
+ 
