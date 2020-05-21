@@ -25,7 +25,10 @@ class Optionsjson:
     classe para opções no arquivo JSON
     """
     def __init__(self, file_data):
-        os.makedirs('./jsonCache')
+        try:
+            os.makedirs('./jsonCache')
+        except FileExistsError:
+            pass
         for item in file_data:
             self.data = {}
             try:
