@@ -1,6 +1,6 @@
-# appRegister
+# Records Manager
 
-# Requisitos:                                                      
+## Requisitos:                                                      
 => termcolor                                                  
    - Windows: python3.8 pip install termcolor (cmd admin)     
    - macOS/Linux: python3.8 pip install termcolor             
