@@ -8,5 +8,6 @@
 => IDEs testada: PyCharm e VScode (VScode é recomendado)      
    - para uma execusão limpa, exercutar diretamente no termnal (macOS/Linux) ou CMD (Windows)                   
                                                             
-=> Versão do Python testada 3.8.2                             
+=> Versão do Python:
+   - 3.8.2 
                                                                     
