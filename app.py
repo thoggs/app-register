@@ -29,7 +29,6 @@ class Optionsjson:
             os.makedirs('./jsonCache')
         except FileExistsError:
             pass
-
         for item in file_data:
             self.data = {}
             try:
@@ -475,4 +474,3 @@ if __name__ == '__main__':
     matricula = ['cod. geral', 'nome']
     # chamada principal do programa
     menu()
- 
