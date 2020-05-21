@@ -24,9 +24,8 @@ class Optionsjson:
     """
     classe para opções no arquivo JSON
     """
-    os.makedirs('./jsonCache')
-
     def __init__(self, file_data):
+        os.makedirs('./jsonCache')
         for item in file_data:
             self.data = {}
             try:
