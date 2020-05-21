@@ -1,4 +1,3 @@
-
 import json
 import os
 from tabulate import tabulate
@@ -25,31 +24,30 @@ class Optionsjson:
     """
     classe para opções no arquivo JSON
     """
-
     def __init__(self, file_data):
         for item in file_data:
             self.data = {}
             try:
-                with open(item + '.json', 'r') as f:
+                with open(f'jsonCache/{item}' + '.json', 'r') as f:
                     self.data = json.load(f)
             except FileNotFoundError:
-                with open(item + '.json', 'w') as f:
+                with open(f'jsonCache/{item}' + '.json', 'w') as f:
                     json.dump(self.data, f, indent=4)
 
     @staticmethod
     def setdata(file_data):
         data = {}
         try:
-            with open(file_data + '.json', 'r') as f:
+            with open(f'jsonCache/{file_data}' + '.json', 'r') as f:
                 data = json.load(f)
         except FileNotFoundError:
-            with open(file_data + '.json', 'w') as f:
+            with open(f'jsonCache/{file_data}' + '.json', 'w') as f:
                 json.dump(data, f, indent=4)
         return data
 
     @staticmethod
     def writejason(data, file_data):
-        with open(file_data + '.json', 'w') as f:
+        with open(f'jsonCache/{file_data}' + '.json', 'w') as f:
             json.dump(data, f, indent=4)
 
     @staticmethod
