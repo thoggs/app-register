@@ -1,5 +1,4 @@
-# Records Manager
-
+# Gerenciador de Registros
 ## Requisitos:                                                      
 => termcolor                                                  
    - Windows: python3.8 pip install termcolor (cmd admin)     
