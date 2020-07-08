@@ -1,5 +1,4 @@
-# Gerenciador de Registros
-[![Build Status](https://travis-ci.com/thoggs/app-register.svg?branch=master)](https://travis-ci.com/thoggs/app-register)
+# Mananger Register [![Build Status](https://travis-ci.com/thoggs/app-register.svg?branch=master)](https://travis-ci.com/thoggs/app-register)
 
 ## Requisitos:                                                      
 => termcolor                                                  
